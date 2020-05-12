@@ -1,0 +1,73 @@
+Response:
+
+{
+  "session": {
+    "message_id": 4,
+    "session_id": "5cc1887a-204a-4a4b-b894-5bd44a16d610",
+    "skill_id": "5406139f-fde5-4e6c-8c6d-b1a1ae3e3b4b",
+    "user_id": "45613120A57954D344D3751BF069F413270B8B8FDFE4A52E2D338BFABDC7EA11",
+    "user": {
+      "user_id": "D032A2369D5F05D737BE0B8549B32095479E7F230347A7879587F4BB7197C2D3"
+    },
+    "application": {
+      "application_id": "45613120A57954D344D3751BF069F413270B8B8FDFE4A52E2D338BFABDC7EA11"
+    },
+    "new": false
+  },
+  "version": "1.0",
+  "response": {
+    "end_session": false,
+    "text": "Все говорят 'рр', а ты купи слона!",
+    "buttons": [
+      {
+        "title": "Ладно",
+        "url": "https://market.yandex.ru/search?text=слон",
+        "hide": true
+      }
+    ]
+  }
+}
+
+Request:
+
+{
+  "meta": {
+    "locale": "ru-RU",
+    "timezone": "UTC",
+    "client_id": "ru.yandex.searchplugin/7.16 (none none; android 4.4.2)",
+    "interfaces": {
+      "screen": {},
+      "payments": {},
+      "account_linking": {}
+    }
+  },
+  "session": {
+    "message_id": 4,
+    "session_id": "5cc1887a-204a-4a4b-b894-5bd44a16d610",
+    "skill_id": "5406139f-fde5-4e6c-8c6d-b1a1ae3e3b4b",
+    "user_id": "45613120A57954D344D3751BF069F413270B8B8FDFE4A52E2D338BFABDC7EA11",
+    "user": {
+      "user_id": "D032A2369D5F05D737BE0B8549B32095479E7F230347A7879587F4BB7197C2D3"
+    },
+    "application": {
+      "application_id": "45613120A57954D344D3751BF069F413270B8B8FDFE4A52E2D338BFABDC7EA11"
+    },
+    "new": false
+  },
+  "request": {
+    "command": "рр",
+    "original_utterance": "рр",
+    "nlu": {
+      "tokens": [
+        "рр"
+      ],
+      "entities": [],
+      "intents": {}
+    },
+    "markup": {
+      "dangerous_context": false
+    },
+    "type": "SimpleUtterance"
+  },
+  "version": "1.0"
+}
